@@ -1,0 +1,302 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.content{
+	position: absolute;
+	width: 100%;
+	height: 400%;
+	
+}
+.page{
+	width: 100%;
+	height: 25%;
+}
+.page1{
+	background: black;
+	position: relative;
+	
+}
+.page2{
+	background: black;
+	position: relative;
+	
+}
+.page3{
+	background: black;
+	position: relative;
+	
+}
+.page4{
+	background: black;
+	position: relative;
+	
+}
+
+.musicBtn{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	width: 40px;
+	height: 40px;
+	animation: xuanzhuan 2s infinite;
+}
+@keyframes xuanzhuan{
+	from{}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.page1-title{
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	
+	display: none;
+	animation: scale 5s infinite;
+}
+.page1-title:hover{
+	left: 0;
+	top: 10%;
+	width: 100%;
+}
+@keyframes scale{
+	
+	50%{transform: rotate(-1deg);}
+	
+	100%{transform: rotate(-1deg);}
+}
+.page1-text{
+	width: 20%;
+	position: absolute;
+	left: 40%;
+	bottom: 0;
+	display: none;
+	
+}
+.page1-text:hover{
+	width: 60%;
+	left: 20%;
+	top: 50%;
+	z-index: 10;
+}
+.page1-bg{
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	margin: auto;
+	
+	
+}
+.page1-people{
+	position: absolute;
+	width: 0px;
+	right: 5%;
+	bottom: 5%;
+	animation: personani 4s infinite;
+	
+}
+.page1-people2{
+	position: absolute;
+	width: 0px;
+	left: 5%;
+	bottom: 5%;
+	animation: personani 4s infinite;
+	
+}
+@keyframes personani{
+	50%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+.page2-bg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.page2-it{
+	position: absolute;
+	top: 35%;
+	right: 0;
+	width: 80%;
+	display: none;
+	animation: textani 4s infinite;
+}
+.page2-it1{
+	position: absolute;
+	top: 15%;
+	left: 0;
+	width: 80%;
+	display: none;
+	animation: textani 4s infinite;
+}
+.page2-it2{
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 80%;
+	display: none;
+	animation: textani 4s infinite;
+}
+.page2-it3{
+	position: absolute;
+	top: 15%;
+	right: 0;
+	width: 80%;
+	display: none;
+	animation: textani 4s infinite;
+}
+.page2-it4{
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	width: 70%;
+	display: none;
+	animation: textani2 3s infinite;
+}
+.page2-it5{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 40%;
+	display: none;
+	animation: textani3 3s infinite;
+	
+}
+@keyframes textani{
+	50%{transform: scale(0.95);}
+	100%{transform: scale(1);}
+}
+@keyframes textani2{
+	50%{transform: translateX(2%);}
+	100%{transform: translateX(0);}
+}
+@keyframes textani3{
+	50%{transform: translateY(-2%);}
+	100%{transform: translateY(0);}
+}
+.page3-bg{
+	position: absolute;
+	left: -100%;
+	height: 100%;
+}
+.page3-bg2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.page3-it1{
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	left: 120%;
+	top: 10%;
+	border-radius: 30px;
+	
+}
+.page3-it2{
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	left: 20%;
+	top: 40%;
+	border-radius: 30px;
+	display: none;
+}
+.page3-it3{
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	right: 120%;
+	top: 70%;
+	border-radius: 30px;
+}
+.page3-it4{
+	position: absolute;
+	height: 40%;
+	right: -100%;
+	bottom: 0;	
+	
+}
+.page3-text1{
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	width: 40%;
+	display: none;
+}
+
+.page4-bg{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	display: block;
+	
+}
+.page4-it1{
+	position: absolute;
+	left: 100%;
+	bottom: 10%;
+	width: 90%;
+	display: block;
+}
+.page4-it2{
+	position: absolute;
+	left: 100%;
+	bottom: 10%;
+	width: 90%;
+	display: block;
+}
+.page4-it3{
+	position: absolute;
+	left: 100%;
+	bottom: 10%;
+	width: 90%;
+	display: block;
+}
+.page4-it4{
+	position: absolute;
+	left: 100%;
+	bottom: 10%;
+	width: 90%;
+	display: block;
+}
+.page4-it5{
+	position: absolute;
+	left: 100%;
+	bottom: 0;
+	width: 100%;
+	display: block;
+}
+.page4-people{
+	position: absolute;
+	width: 0px;
+	right: 5%;
+	top: 5%;
+	animation: personani 4s infinite;
+	
+}
+.page4-text1{
+	position: absolute;
+	top: 20%;
+	left: 43%;
+	width: 0;
+	animation: textani 4s infinite;
+}
+.page4-logo{
+	position: absolute;
+	bottom: 10%;
+	width: 10%;
+	left: 45%;
+	display: none;
+	animation: textani 2s infinite;
+}
